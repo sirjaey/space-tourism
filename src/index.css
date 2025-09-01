@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
+
+
+
+
+nav, h2 {
+    font-family: 'Barlow Condensed',  sans-serif;
+}
+main {
+    h1, h2, h3, button{
+        font-family: 'Bellefair', serif;
+    }
+}
