@@ -4,7 +4,7 @@ const Destination: React.FC = () => {
     const [selectedDestination, setSelectedDestination] = useState("MOON");
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     const [activeIndex, setActiveIndex] = useState<number | null>(0);
-    const imageUrl: string = `/destination/image-${selectedDestination.toLowerCase()}.${"png" || "webp"}`;
+    const imageUrl: string = `/destination/image-${selectedDestination.toLowerCase()}.${"png"}`;
 
     type DestinationData = {
         name: string;
