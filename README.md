@@ -103,4 +103,4 @@ Frontend Developer | AltSchool | React + TypeScript Enthusiast
 
 ## 🔗 Links
 
-- Live Site URL: https://joshua-abu-e-commerce-single-product-page.vercel.app/
+- Live Site URL: https://joshua-abu-space-tourism.vercel.app/
