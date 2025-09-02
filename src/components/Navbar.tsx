@@ -90,11 +90,11 @@ const Navbar: React.FC = () => {
 						{menuItems.map((NavItem, i) => (
 							<li
 								key={i}
-								className="relative hover:border-b-4 border-blue-500 cursor-pointer"
+								className="relative cursor-pointer"
 								onMouseEnter={() => handleMouseEnter(i)} onMouseLeave={handleMouseLeave}
 								onClick={() => handleClick(i)}
 							>
-								<Link to={NavItem === "HOME" ? "/" : `/${NavItem.toLowerCase()}`} className="hover:text-yellow-400">
+								<Link to={NavItem === "HOME" ? "/" : `/${NavItem.toLowerCase()}`} className="">
 									<span className="font-bold pr-3 inline-block">{`0${i}`}</span>
 									{NavItem}
 								</Link>
@@ -133,22 +133,22 @@ const Navbar: React.FC = () => {
 						</div>
 						<ul className="flex flex-col pt-15 ">
 							<li className="mb-6 tracking-widest" onClick={() => setIsOpen(false)}>
-								<Link to="/" className="hover:text-yellow-400">
+								<Link to="/" className="">
 									<span className="font-bold px-4">00</span> HOME
 								</Link>
 							</li>
 							<li className="mb-6 tracking-widest" onClick={() => setIsOpen(false)}>
-								<Link to="/destination" className="hover:text-yellow-400">
+								<Link to="/destination" className="">
 									<span className="font-bold px-4">01</span> DESTINATION
 								</Link>
 							</li>
 							<li className="mb-6 tracking-widest" onClick={() => setIsOpen(false)}>
-								<Link to="/crew" className="hover:text-yellow-400">
+								<Link to="/crew" className="">
 									<span className="font-bold px-4">02</span> CREW
 								</Link>
 							</li>
 							<li className="mb-6 tracking-widest" onClick={() => setIsOpen(false)}>
-								<Link to="/technology" className="hover:text-yellow-400">
+								<Link to="/technology" className="">
 									<span className="font-bold px-4">03</span> TECHNOLOGY
 								</Link>
 							</li>
