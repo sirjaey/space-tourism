@@ -84,10 +84,10 @@ src/
 
 ## Screenshots of key features
 
-![Landing page screenshot](/screenshots/landing-page.png)
-![Active Sate](/screenshots/active-state.png)
-![Mobile view](/screenshots/mobile-view.png)
-![Tab view](/screenshots/tab-view.png)
+![Landing page screenshot](./public/screenshots/landing-page.png)
+![Active Sate](./public/screenshots/active-state.png)
+![Mobile view](./public/screenshots/mobile-view.png)
+![Tab view](./public/screenshots/tab-view.png)
 
 ---
 
