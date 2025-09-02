@@ -54,7 +54,7 @@ function Home() {
 
 								<Link to="/destination" className="cursor-pointer">
 									<motion.span
-										className="relative z-10 bellefair text-lg uppercase tracking-[0px] "
+										className="relative bellefair text-lg uppercase tracking-[0px] "
 										variants={{
 											rest: { color: "#000000" },
 											hover: { color: "#0B0D17" },

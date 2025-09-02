@@ -51,11 +51,11 @@ const Navbar: React.FC = () => {
 						{menuItems.map((NavItem, i) => (
 							<li
 								key={i}
-								className="relative hover:border-b-4 border-blue-500 cursor-pointer"
+								className="relative  cursor-pointer"
 								onMouseEnter={() => handleMouseEnter(i)} onMouseLeave={handleMouseLeave}
 								onClick={() => handleClick(i)}
 							>
-								<Link to={NavItem === "HOME" ? "/" : `/${NavItem.toLowerCase()}`} className="hover:text-yellow-400 tracking-widest">
+								<Link to={NavItem === "HOME" ? "/" : `/${NavItem.toLowerCase()}`} className="tracking-widest">
 									<span className="font-bold pr-3 inline-block">{`0${i}` }</span>
 									{NavItem}
 								</Link>
