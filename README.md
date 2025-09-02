@@ -31,7 +31,7 @@ The project allows users to explore destinations, learn about crew members, and 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/sirjaey/space-tourism.git
-   cd interactive-card-details
+   cd space-tourism
    ```
 2. **Install dependencies**
    ```bash
